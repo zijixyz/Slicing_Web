@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aji Pangestu</title>
+    <link rel="stylesheet" href="kfc.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">🍗 AJI<span>ku</span></a>
+            <nav class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#porto" class="nav-link">Portfolio</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            <button class="hamburger" id="hamburger">☰</button>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="container">
+            <h1>AJI PANGESTU <span>WEB PROGRAMMER</span></h1>
+            <p>Buat webmu bersama saya. Tapi bayar</p>
+            <a href="#contact" class="btn">Order Now</a>
+        </div>
+    </section>
+
+    <section class="section" id="porto">
+        <div class="container">
+            <h2>My <span>Portfolio</span></h2>
+            <div class="grid" id="grid"></div>
+        </div>
+    </section>
+
+    <section class="section gray" id="about">
+        <div class="container">
+            <h2>About <span>Me</span></h2>
+            <p>Saya Aji Pangestu dengan NIM 252410103104 sebagai web programmer UNEJ, kayaknya.</p>
+        </div>
+    </section>
+
+    <section class="section" id="contact">
+        <div class="container">
+            <h2>Get In <span>Touch</span></h2>
+            <form id="form">
+                <input type="text" id="nama" placeholder="Nama">
+                <input type="email" id="email" placeholder="Email">
+                <textarea id="pesan" placeholder="Pesan"></textarea>
+                <button type="submit" class="btn">Kirim</button>
+                <p id="status"></p>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Aji Pangestu</p>
+    </footer>
+
+    <script src="kfc.js"></script>
+</body>
+</html>
